@@ -1,0 +1,41 @@
+{
+    "name": "codicastudio/barcode",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "homepage": "https://github.com/codicastudio/barcode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Milon\\Barcode": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Milon\\Barcode\\BarcodeServiceProvider"
+            ],
+            "aliases": {
+                "DNS1D": "Milon\\Barcode\\Facades\\DNS1DFacade",
+                "DNS2D": "Milon\\Barcode\\Facades\\DNS2DFacade"
+            }
+        }
+    }
+}
