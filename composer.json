@@ -1,9 +1,7 @@
 {
     "name": "codica-studio/barcode",
     "description": "A random Codica Studio package.",
-    "keywords": [
-        ""
-    ],
+
     "homepage": "https://github.com/codica-studio/barcode",
     "license": "MIT",
     "authors": [
